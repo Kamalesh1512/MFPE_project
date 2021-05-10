@@ -1,0 +1,159 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: 'Roboto', sans-serif;
+  color: #788487;
+  position: relative;
+}
+
+
+.mainheader
+{
+	background-color: #8a2be2;
+	position: sticky;
+	top: 0;
+	z-index: 9;
+
+	
+}
+.logo
+{
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: #ffffff;
+	border-radius: 5px;
+	border: 2px solid white;
+	
+	
+}
+ .navbar-nav a
+{
+	font-size: 23px;
+	color: white;
+}
+.navbar-nav a:hover
+{
+	font-size: 20px;
+	color: yellow;
+	opacity: 1;
+}
+.navbar-toggler.navbutton
+{
+	border: 2px solid white;
+}
+.navbar-toggler-icon
+{
+	
+}
+
+.mainsection
+{
+	background-image: url("/images/bg-img3.png");
+	height: 800px;
+}
+.footersection
+{
+height: 50px;	
+
+background-repeat: no-repeat;
+background-size: cover;
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+ margin-right: 0;
+}
+.formssection{
+	margin-top:40px;
+	width: 500px;
+	height: auto;
+	background-image: url("/images/bg-img4.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 50px 50px 50px;
+	
+}
+.formssection td
+{
+	font-size: 20px;
+	 color: #000099;
+	 font-weight: bold;
+	 width: 150px;
+}
+ 
+.form-group 
+{
+	color: blue;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+.card-title
+{
+	color: #9B1B30;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.submitbutton
+{
+	height: 30px;
+	color: aqua;
+	
+}
+.signup
+{
+	color: #2A4B7C;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.signupbtn
+{
+	color: #2A293E;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.signupbtn:hover {
+	color: #00539C;
+	font-size: 22px;
+}
+.text-success
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.dropdown-item
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+.userloginmessage
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #F7CAC9
+	
+}
+
+.table-hover
+{
+	color: blue;
+}

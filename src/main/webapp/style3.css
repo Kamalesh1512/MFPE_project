@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+h1{
+	size:30px;
+	text-align: center;
+	text-color:slateblue;
+}
+
+ul{
+	text-align: left;
+	margin-right: 75px;	
+}
+li{
+	display:inline-table;
+	padding:10px;
+	text-shadow: 0 0 3px blue;
+ 	font-size:20px;
+	
+}
+li a:hover{
+	color:chocolate;
+	font-size:25px;
+	
+}
+body{
+	color:black;
+	font-family:serif;
+	background-image:url("medi.jpg");	
+}
+.header{
+	color:#191970;
+	width:100%;
+	height:100px;
+
+	padding: 20px;	
+}
+
+body {
+
+ background-image: url("image1.jpg");
+background-repeat: no-repeat;
+  background-attachment: fixed;
+ background-size: 100% 100%;
+}
+a:link {
+  color: red;
+  
+  
+}
